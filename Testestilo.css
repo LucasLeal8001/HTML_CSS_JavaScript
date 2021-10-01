@@ -1,0 +1,71 @@
+body{
+    font-family:sans-serif;
+    margin: 0px;
+    background-color: #3e7a3ec2;
+    color: white;
+    height:1000px
+    
+}
+.logo{background-color: black;}
+
+.menu{background-color: rgb(0, 0, 0);}
+
+.menu ul{
+    margin: 0px;
+    list-style-type: none;
+    text-align: right;
+    padding: 15px;
+}
+.menu ul li{
+    display: inline-block;
+    border: black solid 1px;
+    color: white;
+    padding-right: 30px;
+    font-size: 20px;
+
+}
+a{
+    color: rgba(255, 255, 255, 0.589);
+    text-decoration: none;
+    font-family: sans-serif;
+}
+a:hover{
+    color: rgb(7, 185, 7);
+}
+
+header{
+    background-image: url(./images/slide1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 450px;
+    margin: 0px;
+    font-size: 18px;
+  
+}
+.topo{
+    height: 1px;
+    
+}
+#titulo{
+    text-align: center;
+    font-family: Times;
+    font-size: 50px;
+    text-shadow: black 4px 2px 1px;
+}
+.card-3{
+    
+    display: block;
+    width: 400px;
+    
+}
+
+
+
+footer{
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    padding: 1%;
+    color: rgb(7, 121, 7);
+    
+}

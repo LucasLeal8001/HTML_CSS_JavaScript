@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Lucas">
+        <meta name="keywords" content="formularios, html, java">
+        <meta name="description" content="site sobre formulario ou so um teste">
+        <title>Formulario</title>
+
+        <style>
+            h1{
+                text-align: center;
+            }
+            body{
+                background-color: rgba(80, 197, 133, 0.651);
+            }
+            fieldset{
+                background-color: rgb(33, 172, 130);
+                width: 700px;
+                display: inline-block;
+            }
+            #subtitulo{
+                text-align: center;
+                font-size: 22px;
+                text-decoration: underline;
+                color: red;
+                background-color: rgb(208, 255, 1);
+                margin: auto 500px;margin-bottom: 20px;
+            }
+            legend{
+                color: white;
+                font-size: 35px;
+                margin-bottom: 25px;
+                text-align: center;
+                font-family: sans-serif;
+                letter-spacing: 5px;
+                border: black solid 3px;
+                text-shadow: black 3px 3px 1px;
+                background-color: rgb(95, 167, 201);
+                
+            }
+            form{
+                text-align: center;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>Cursos Gratuitos</h1>
+        <p id="subtitulo">Cursos gratis até o dia 20/12, não perca essa oportunidade</p>
+
+        <form action="#" method="POST">
+            <fieldset>
+                <legend>Cadastro</legend>
+
+                <label>Nome:</label>
+                <input type="text" required>
+
+                <label>Sobrenome:</label>
+                <input type="text" required>
+                
+                <br><br>
+                <label>Data de nascimento:</label>
+                <input type="date" max="2003-12-31" required>
+                <br><br>
+
+                <label>Email:</label>
+                <input type="email" required>
+                <br><br>
+
+                <label>Sexo:
+                <input type="radio" name="sexo" value="M" required>Masculino
+                <input type="radio" name="sexo" value="F" required>Feminino
+                </label>
+                <br>
+
+                <div class="cursos">
+                <p>Cursos disponíveis:</p>
+                <label><input type="checkbox">Panificação</label>
+                <label><input type="checkbox">Borracharia</label>
+                <label><input type="checkbox">Informática</label>
+                <label><input type="checkbox">Barbearia</label>
+                <label><input type="checkbox">Empreendedorismo</label>
+                <label><input type="checkbox">Inglês</label>
+                </div>
+                <br>
+
+                <label>Onde nos conheceu?</label>
+                <select required>
+                    <option value="0" cheked>Selecione</option>
+                    <option>Amigos ou conhecidos</option>
+                    <option>Anuncios</option>
+                    <option>Redes sociais</option>
+                    <option>Youtube</option>
+                    <option>Recomendação acadêmica</option>
+                    <option>Outro</option>
+                </select>
+
+                <br>
+                <br>
+                <label>Alguma sugestão ou dúvida? nos envie sua mensagem</label>
+                <br>
+                <textarea cols="47" rows="6" style="resize: none;"></textarea>
+
+                <h2>Contrato</h2>
+                <textarea rows="15" cols="50" readonly style="resize: none;">CLÁUSULA PRIMEIRA - DO OBJETO1.1 O presente contrato tem por objeto a prestação de serviços profissionais especializados em  por parte da CONTRATADA de acordo com os termos e condições detalhados neste contrato.
+                    CLÁUSULA SEGUNDA - OBRIGAÇÕES DA CONTRATANTE2.1 A CONTRATANTE deverá fornecer à CONTRATADA todas as informações necessárias à realização do serviço, devendo especificar os detalhes necessários à perfeita consecução do mesmo.
+                    2.2 A CONTRATANTE é obrigada ainda a disponibilizar:  
+                    2.3 A CONTRATANTE deverá efetuar o pagamento na forma e condições estabelecidas na cláusula quinta.CLÁUSULA TERCEIRA - OBRIGAÇÕES DA CONTRATADA3.1 A CONTRATADA deverá prestar os serviços solicitados pela CONTRATANTE conforme descritivo, especificações e prazos previstos no ANEXO I.
+                    3.2 A CONTRATADA se obriga a manter absoluto sigilo sobre as operações, dados, estratégias, materiais, informações e documentos da CONTRATANTE, mesmo após a conclusão dos serviços ou do término da relação contratual.
+                    3.3 Os contratos, informações, dados, materiais e documentos inerentes à CONTRATANTE ou a seus clientes deverão ser utilizados, pela CONTRATADA, por seus funcionários ou contratados, estritamente para cumprimento dos serviços solicitados pela CONTRATANTE, sendo VEDADO a comercialização ou utilização para outros fins. 
+                    3.4 Será de responsabilidade da CONTRATADA todo o ônus trabalhista ou tributário referente aos funcionários utilizados para a prestação do serviço objeto deste instrumento, ficando a CONTRATANTE isenta de qualquer obrigação em relação a eles.
+                    3.5 A CONTRATADA deverá fornecer os respectivos documentos fiscais, referente ao(s) pagamento(s) do presente instrumento.
+                    CLÁUSULA QUARTA - DOS SERVIÇOS
+                    4.1 A CONTRATADA atuará nos serviços contratados de acordo com as especificações descritas no ANEXO I, que passa ser parte integrante do presente contrato.
+                    4.2 Os serviços terão início em  dias corridos da assinatura do presente contrato.  
+                </textarea>
+                <br>
+                <label><input type="checkbox" required>Li e aceito os termos</label>
+                
+                
+                <br>
+                <input type="submit" value="Enviar">
+            </fieldset>
+        </form>
+    </body>
+</html>

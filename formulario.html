@@ -1,0 +1,66 @@
+<html>
+    <body>
+        <form action="#" method="GET" class="formulario">
+            <fieldset>
+
+                <legend id="legenda">Login</legend>
+
+                <label id="label1" for="usuario">Usuario:</label>
+                <input type="text" id=usuario name="user" autofocus>
+
+                <label for="senha">Senha:</label>
+                <input type="password" id="senha" name="password">
+
+                <input type="submit" value="Logar" id="btn">
+
+            </fieldset>
+            
+        </form>
+
+        <style>
+            .formulario{
+                width: 350px;
+                margin: 200px auto 0px;
+                box-sizing: border-box;   
+                font-family: sans-serif;
+                        
+            }
+            .formulario fieldset{
+                background-image: url(images2/card_02.jpg);
+                background-repeat: no-repeat;
+                background-size: cover;
+                width: 400px;
+                height: 350px;
+                box-sizing: border-box;
+                
+            }
+            #legenda{
+                text-align: center;
+                background: rgba(252, 10, 10, 0.61);
+                font-size: 20px;
+            }
+            #usuario, #senha, #btn{
+               display: block;
+                margin: 5px 20px;  
+                box-sizing: border-box;
+                padding: 4px;
+                font-size: 16px;
+
+            }
+            #usuario, #senha{
+                padding-right: 150px;               
+            }
+            #label1{
+                
+                margin-top: 50px;
+                display: block;
+                box-sizing: border-box;
+            }
+            label{
+                font-size: 20px ;
+                display: inline-block;
+            }
+            
+        </style>
+    </body>
+</html>

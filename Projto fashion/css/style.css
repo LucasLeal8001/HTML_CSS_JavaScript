@@ -1,0 +1,138 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+}
+
+header{
+    margin-top: 0px;
+}
+.menu img{
+    margin-left: 200px;
+    text-align: center;
+}
+
+.menu{
+    background-color: rgb(2, 27, 22);
+    color: white;
+    margin-top: 0px;
+    
+    
+    }
+.menu ul{
+  text-align: right;
+  list-style: none;
+  display: inline-block;
+  margin-left: 700px;
+  box-sizing:content-box;
+
+}
+.menu ul li{
+    display:inline-block;
+    padding:0px 20px 0px 20px;
+    text-align: right ;
+    color: rgba(255, 255, 255, 0.637);
+    font-family: sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: small;
+}
+
+a{  color: rgba(255, 255, 255, 0.637);
+    text-decoration: none;
+    transition: color 0.3s linear;
+}
+a:hover{
+    color: rgb(255, 255, 255);
+}
+
+.cap{
+    background-image: url("../imagens/topo.jpg");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    height: 700px;
+}
+
+#title{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 40px;
+}
+.content{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+#text{
+    font-size: auto;
+    width: 1000px;
+    margin: auto;
+    word-spacing: 2px;
+    line-height: 30px;
+}
+.card{
+    margin-top: 60px;
+    display: inline-block;
+    box-sizing: border-box;
+}
+.cardspace{
+    margin-left: 2%;
+}
+.card h2{
+    letter-spacing: 2px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.788);
+}
+.card p{
+    margin-top:-10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.description{
+    background-image: url(../imagens/bg_detalhe.png);
+    background-position: right bottom;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    width: auto;
+    margin-top: 100px;
+    padding: 100px;
+}
+.description h3{
+    text-align: left;
+    width: 80%;
+    margin: auto;
+    color:white;
+    font-size: 72px;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 8%;
+}
+.description p{
+    margin: auto;
+    color: white;
+    margin-top: 80px;
+    width: 650px;
+    text-align: left;
+    font-size: 25px;
+    height: auto;
+    margin-left: 155px;
+}
+h4{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+footer{
+    margin-top: 50px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.658);
+    background-color: rgb(2, 27, 22) ;
+    letter-spacing: 5px;
+    padding: 10px;
+}

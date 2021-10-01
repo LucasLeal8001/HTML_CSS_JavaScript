@@ -1,0 +1,102 @@
+<!doctype html>
+<!--doctype informa ao agente de usuario a versao do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title>pagina de exemplo estrutura basica</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Lucas">
+        <meta name="description" content="lista de documentos">
+        <meta name="keywords" content="html5, tecnologia">
+    </head>
+
+    <style>
+        table{
+            font-family: arial;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        td{
+            border:solid 2px black;
+            padding: 4px 20px;
+        }
+       thead{
+           background-color: rgba(255, 255, 2, 0.74);
+       }
+       tfoot{
+           background-color: rgb(255, 126, 21);
+       }
+       tbody{
+           background-color: rgba(236, 162, 25, 0.425);
+       }
+
+
+    </style>
+
+    <body>
+        <table>
+        
+        <thead>
+            <tr>
+                <td><b>Categoria</b></td>
+                <td><b>Produto</b></td>
+                <td><b>Preço</b></td>
+            </tr>
+            </thead>
+
+        <tfoot>
+                <tr>
+                    <td colspan="3"><b>Preços atualizados 2021</b></td>
+                </tr>
+        </tfoot>
+            
+        <tbody>
+            <tr>
+                <td rowspan="2">Placa de video</td>
+                <td>Gtx 1050 (4Gb)</td>
+                <td>R$: 2.000,00</td>
+            </tr>
+            <tr>
+                
+                <td>Rtx 3060 (12Gb)</td>
+                <td>R$: 5.000,00</td>
+            </tr>
+            <tr>
+                <td>Placa mãe</td>
+                <td>GA-78LMT-BR</td>
+                <td>R$: 350,00</td>
+            </tr>
+            <tr>
+                <td rowspan="2">Processador</td>
+                <td>Fx 8300</td>
+                <td>R$: 400,00</td>
+            </tr>
+            <tr>
+                
+                <td>Inter i7</td>
+                <td>R$: 800,00</td>
+            </tr>
+            <tr>
+                <td rowspan="4">Memória</td>
+                <td>8 Gb DDR4</td>
+                <td>R$: 260,00</td>
+            </tr>
+            <tr>
+                
+                <td>4 Gb DDR4</td>
+                <td>R$: 200,00</td>
+            </tr>
+            <tr>
+                
+                <td>8 Gb DDR3</td>
+                <td>R$: 160,00</td>
+            </tr>
+            <tr>
+                
+                <td>4 Gb DDR4</td>
+                <td>R$: 80,00</td>
+            </tr>
+        </tbody>
+
+        </table>
+    </body>
+</html>
