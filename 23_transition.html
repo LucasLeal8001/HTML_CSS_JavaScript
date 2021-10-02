@@ -1,0 +1,73 @@
+<!doctype html>
+<!--doctype informa ao agente de usuario a versao do html que deve ser renderizada-->
+<html lang="pt-br">
+    <head>
+        <title>pagina de exemplo estrutura basica</title>
+        <meta charset="utf-8">
+        <meta name="author" content="Lucas">
+        <meta name="description" content="lista de documentos">
+        <meta name="keywords" content="html5, tecnologia">
+        
+        <style>
+            #div1{
+                width: 100px;
+                height: 100px;
+                background-color: yellow;
+
+                transition-property: width,height;
+                transition-duration: 1s, 3s;
+                transition-timing-function: cubic-bezier(.99,.01,0,.99);
+                transition-delay: 0s, .3s;
+            }
+            #div2{
+                width: 100px;
+                height: 100px;
+                background-color: blue;
+
+                transition-property: width;
+                transition-duration: .5s;
+                transition-timing-function: ease-in;
+            }
+            #div3{
+                width: 100px;
+                height: 100px;
+                background-color: red;
+
+                transition-property: width;
+                transition-duration: .5s;
+                transition-timing-function: ease-out;
+            }
+            #div4{
+                width: 100px;
+                height: 100px;
+                background-color: purple;
+
+                transition-property: width;
+                transition-duration: .5s;
+                transition-timing-function: ease-in-out;
+            }
+            #div1:hover{
+                width: 400px;
+                height: 400px;
+            }
+            #div2:hover{
+                width: 200px;
+            }
+            #div3:hover{
+                width: 200px;
+            }
+            #div4:hover{
+                width: 200px;
+            }
+        </style>
+    </head>
+
+    <body>
+        <h1>estrutura basica</h1>
+        
+        <div id="div1">Camisas</div>
+        <div id="div2">Bermudas</div>
+        <div id="div3">Sapatos</div>
+        <div id="div4">Casacos</div>
+    </body>
+</html>
